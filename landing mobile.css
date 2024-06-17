@@ -1,0 +1,120 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+@media (max-width: 599px) {
+    /* This is a header Section CSS */
+    body{
+        background-color: #e5e4eb;
+    }
+    .header-div{
+        border-bottom:1px solid #2c2f3f;
+    }
+   .logo{
+    width:50px;
+    border-radius: 50%;
+    margin-top:3vw;
+   }
+   .icon-button{
+    width:50px;
+    height:45px;
+    border-radius: 50%;
+    margin-top:3vw;
+    border-width: 0px;
+    background-color:#2c2f3f;
+    color:white;
+   }
+    /* Close the header Section CSS */
+
+    /* This is a Offer Section CSS */
+   .upgrade{
+     color:red;
+     font-weight: bold;
+   }
+   .heading-6{
+      color: #ff4500;
+   }
+   .paragraph{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding: 0vw 2vw;
+     text-align: justify;
+     font-size: 5vw;
+   }
+   .offer-h2{
+    color:#ff4500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   }
+   ul{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+   }
+   /* Close the Offer section CSS */
+
+   /* This is a Testimonials Section CSS */
+.testimonials-h2{
+    padding-top:6vw;
+    font-size:6vw;
+    color: #ff4500; 
+}
+.testimonial {
+  margin: 14px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90vw;
+  text-align: justify;
+}
+.testimonial p {
+  margin: 0;
+}
+.testimonial .name {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.name-2{
+  font-weight: bold;
+  margin-top: 10px;
+}
+.testimonial .stars {
+  color: #ffcc00; /* Gold star color */
+}
+.media-button{
+  border-radius: 50%;
+  border-width: 0px;
+  background-color:#2c2f3f;
+  width: 35px;
+  height:30px;
+}
+.media-icon{
+  color:white;
+}
+.purchase-button{
+  margin-left: 26vw;
+  border-width: 0px;
+  background-color: red;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 37vw;
+  height: 11vw;
+  border-radius: 2vw;
+  position: relative;
+  bottom: 7vw;
+  font-weight: 700;
+}
+.contact-paragraph{
+  font-size:5vw;
+}
+.navbar{
+  display: none;
+}
+.mobile{
+  display: none;
+}
+.contact-section{
+  font-size: 3vw;
+}
+   /* Close the Testimonials Section CSS */
+}
